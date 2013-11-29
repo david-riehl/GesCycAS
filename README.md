@@ -15,4 +15,13 @@ En ce qui concerne le volume des informations à gérer, on vous informe qu’au
 ##Objectif
 Ce projet a pour objectif de fournir une application web permettant aux établissements scolaires de vérifier de manière plus efficace l’assiduité des étudiants à ces ateliers.
 
-** *<span style="color:red;">Attention</span>* **
+**Attention**
+A la suite du document certaines informations apparaissent en **gras**. Ces informations peuvent faire l’objet d’une précision ou d’une modification ultérieure !
+
+
+##Tableau des Activités
+Pour chaque année («&nbsp;sup&nbsp;», et «&nbsp;spé&nbsp;») les enseignants proposent un ensemble d’activités qu’ils se répartissent entre eux.
+
+<table>
+<tr><th>C1</th><th>C2</th><th>C3</th><th>C4</th><th>C5</th></tr>
+</table>
