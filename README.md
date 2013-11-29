@@ -232,7 +232,7 @@ A chaque séance d’une activité sportive, l’enseignant en charge de l’act
 - Saisir les présents et les dispensés exceptionnels
 - Noter un changement d’activité pour un étudiant
 
-- **Sur un même cycle, un étudiant peut-il suivre plusieurs ateliers en alternance encadrés par des enseignants différents&nbsp;?**
+**Sur un même cycle, un étudiant peut-il suivre plusieurs ateliers en alternance encadrés par des enseignants différents&nbsp;?**
  
 ##Quota
 La présence systématique à une séance de sport n’est pas requise. Les étudiants doivent cependant suivre un certain nombre de séances au minimum en fonction de leur année&nbsp;:
@@ -240,7 +240,7 @@ La présence systématique à une séance de sport n’est pas requise. Les étu
 - Les étudiants en «&nbsp;sup&nbsp;» (première année) doivent faire un minimum de 20 séances
 - Les étudiants en «&nbsp;spé&nbsp;» (deuxième année) doivent faire un minimum de 16 séances
 
-- **Qu’en est-il des «&nbsp;5/2&nbsp;»&nbsp;?**
+**Qu’en est-il des «&nbsp;5/2&nbsp;»&nbsp;?**
 
 ##Notification
 On peut également pour chacune de ces années fixer un seuil d’alerte, par exemple&nbsp;:
@@ -248,7 +248,7 @@ On peut également pour chacune de ces années fixer un seuil d’alerte, par ex
 - Pour les étudiants en «&nbsp;sup&nbsp;»&nbsp;: seul d’alerte = 5
 - Pour les étudiants en «&nbsp;spé&nbsp;»&nbsp;: seuil d’alerte = 3
 
-- **Qu’en est-il des «&nbsp;5/2&nbsp;»&nbsp;?**
+**Qu’en est-il des «&nbsp;5/2&nbsp;»&nbsp;?**
 
 On déclenche une première alerte si on a franchi le seuil&nbsp;:
 
