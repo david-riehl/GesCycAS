@@ -89,25 +89,24 @@ M. SCHWARTZ<br>
 <em>Gymnase</em>
 </td></tr>
 <tr><td>
-<strong>Natation</strong>
-Mlle SMITH
+<strong>Natation</strong><br>
+Mlle SMITH<br>
 <em>Piscine Municipale</em>
 </td><td>
-<strong>PPG</strong>
-M. SCHWARTZ
+<strong>PPG</strong><br>
+M. SCHWARTZ<br>
 <em>Gymnase</em>
 </td><td>
-<strong>Natation</strong>
-Mlle SMITH
+<strong>Natation</strong><br>
+Mlle SMITH<br>
 <em>Piscine Municipale</em>
 </td><td>
-<strong>Athlétisme</strong>
-M. DUBRULLE
+<strong>Athlétisme</strong><br>
+M. DUBRULLE<br>
 <em>Stade XYZ</em>
 </td><td>
-<strong>Gymnastique</strong>
-Mlle SMITH
+<strong>Gymnastique</strong><br>
+Mlle SMITH<br>
 <em>Gymnase</em>
 </td></tr>
 </table>
-
