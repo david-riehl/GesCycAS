@@ -23,5 +23,91 @@ A la suite du document certaines informations apparaissent en **gras**. Ces info
 Pour chaque année («&nbsp;sup&nbsp;», et «&nbsp;spé&nbsp;») les enseignants proposent un ensemble d’activités qu’ils se répartissent entre eux.
 
 <table>
+<caption>Tableau d’Activité des «&nbsp;sup&nbsp;»</caption>
 <tr><th>C1</th><th>C2</th><th>C3</th><th>C4</th><th>C5</th></tr>
+<tr><td>
+<strong>Escalade</strong><br>
+M. DUPONT<br>
+<em>Salle des Sports</em>
+</td><td>
+<strong>Escalade</strong><br>
+M. DUPONT<br>
+<em>Salle des Sports</em>
+</td><td>
+<strong>Football</strong><br>
+M. DESCHAMPS<br>
+<em>Stade XYZ</em>
+</td><td>
+<strong>Football</strong><br>
+M. DESCHAMPS<br>
+<em>Stade XYZ</em>
+</td><td>
+<strong>Football</strong><br>
+M. DESCHAMPS<br>
+<em>Stade XYZ</em>
+</td></tr>
+<tr><td>
+<strong>Badminton</strong><br>
+Mme DUPUIS<br>
+<em>Gymnase</em>
+</td><td>
+<strong>Badminton</strong><br>
+Mme DUPUIS<br>
+<em>Gymnase</em>
+</td><td>
+<strong>Handball</strong><br>
+Mme DUPUIS<br>
+<em>Salle des Sports</em>
+</td><td>
+<strong>Handball</strong><br>
+Mme DUPUIS<br>
+<em>Terrain Sport</em>
+</td><td>
+<strong>Athlétisme</strong><br>
+M. DUBRULLE<br>
+<em>Stade XYZ</em>
+</td></tr>
+<tr><td>
+<strong>Pétanque</strong><br>
+M. DUCHEMIN<br>
+<em>Terrain</em>
+</td><td>
+<strong>Athlétisme</strong><br>
+M. DUBRULLE<br>
+<em>Stade XYZ</em>
+</td><td>
+<strong>PPG</strong><br>
+M. SCHWARTZ<br>
+<em>Gymnase</em>
+</td><td>
+<strong>Escalade</strong><br>
+M. DUCHEMIN<br>
+<em>Mur Escalade Ext.<em>
+</td><td>
+<strong>PPG</strong><br>
+M. SCHWARTZ<br>
+<em>Gymnase</em>
+</td></tr>
+<tr><td>
+<strong>Natation</strong>
+Mlle SMITH
+<em>Piscine Municipale</em>
+</td><td>
+<strong>PPG</strong>
+M. SCHWARTZ
+<em>Gymnase</em>
+</td><td>
+<strong>Natation</strong>
+Mlle SMITH
+<em>Piscine Municipale</em>
+</td><td>
+<strong>Athlétisme</strong>
+M. DUBRULLE
+<em>Stade XYZ</em>
+</td><td>
+<strong>Gymnastique</strong>
+Mlle SMITH
+<em>Gymnase</em>
+</td></tr>
 </table>
+
