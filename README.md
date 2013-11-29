@@ -4,17 +4,17 @@
 ##Sommaire
 - [Contexte](#contexte)
 - [Objectif](#objectif)
-- [Tableau des Activités](tableau-des-activit%C3%A9s)
-- [Activités Extra-Scolaires](activit%C3%A9s-extra-scolaires)
-- [Inscription](inscription)
-- [Pointage des étudiants présents](pointage-des-%C3%A9tudiants-pr%C3%A9sents)
-- [Quota](quota)
-- [Notification](notification)
-- [Bilan](bilan)
-- [Fonctionnalités](fonctionnalit%C3%A9s)
-- [Contraintes Techniques](contraintes-techniques)
-- [Charte Graphique](charte-graphique)
-- [Contrainte d’organisation](contrainte-dorganisation)
+- [Tableau des Activités](#tableau-des-activit%C3%A9s)
+- [Activités Extra-Scolaires](#activit%C3%A9s-extra-scolaires)
+- [Inscription](#inscription)
+- [Pointage des étudiants présents](#pointage-des-%C3%A9tudiants-pr%C3%A9sents)
+- [Quota](#quota)
+- [Notification](#notification)
+- [Bilan](#bilan)
+- [Fonctionnalités](#fonctionnalit%C3%A9s)
+- [Contraintes Techniques](#contraintes-techniques)
+- [Charte Graphique](#charte-graphique)
+- [Contrainte d’organisation](#contrainte-dorganisation)
 
 ##Contexte
 Au cours de leur cursus, les étudiants inscrits en Classe Préparatoire aux Grandes Ecoles (CPGE) doivent avoir une pratique sportive.
