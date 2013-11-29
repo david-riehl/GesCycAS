@@ -211,15 +211,12 @@ Mme LAPOINTE<br>
 Certains étudiants suivent une ou plusieurs activités sportives extra-scolaires&nbsp;: en UNSS, ou en Club.
 L’UNSS étant organisée par des enseignants du lycée, ces heures peuvent être prises en charge sous la forme d’un cycle à part entière.
 Un cycle «&nbsp;extra-scolaire&nbsp;» peut impliquer des étudiants de «&nbsp;sup&nbsp;» et de «&nbsp;spé&nbsp;». Il est effectué un jour de la semaine qui n’est pas forcément l’un des jours affectés aux «&nbsp;sup&nbsp;» ou aux «&nbsp;spé&nbsp;».
-<strong>
 
-- Comment intégrer les activités sportives pratiquées en Club&nbsp;?
-	- Utilise-t-on un mécanisme similaire à celui d’une dispense annuelle&nbsp;?
-	- Attribue-t-on un quota minimum de participation aux étudiants qui ont une activité en Club&nbsp;?
-	- Utilise-t-on le même mécanisme que celui de l’UNSS&nbsp;?
-		- Un entraineur d’un club pourrait-il faire le pointage des présences et des dispenses sur l’application&nbsp;?
-
-</strong>
+- **Comment intégrer les activités sportives pratiquées en Club&nbsp;?**
+	- **Utilise-t-on un mécanisme similaire à celui d’une dispense annuelle&nbsp;?**
+	- **Attribue-t-on un quota minimum de participation aux étudiants qui ont une activité en Club&nbsp;?**
+	- **Utilise-t-on le même mécanisme que celui de l’UNSS&nbsp;?**
+		- **Un entraineur d’un club pourrait-il faire le pointage des présences et des dispenses sur l’application&nbsp;?**
 
 ##Inscription
 Les activités proposées pendant un cycle sont définies préalablement et les étudiants doivent s’inscrire pour chaque cycle à une (**ou plusieurs&nbsp;?**) activités, et ce entre la date d’ouverture et la date de clôture des inscriptions.
@@ -235,35 +232,23 @@ A chaque séance d’une activité sportive, l’enseignant en charge de l’act
 - Saisir les présents et les dispensés exceptionnels
 - Noter un changement d’activité pour un étudiant
 
-<strong>
-
-- Sur un même cycle, un étudiant peut-il suivre plusieurs ateliers en alternance encadrés par des enseignants différents&nbsp;?
-
-</strong>
+- **Sur un même cycle, un étudiant peut-il suivre plusieurs ateliers en alternance encadrés par des enseignants différents&nbsp;?**
  
 ##Quota
 La présence systématique à une séance de sport n’est pas requise. Les étudiants doivent cependant suivre un certain nombre de séances au minimum en fonction de leur année&nbsp;:
 
--	Les étudiants en «&nbsp;sup&nbsp;» (première année) doivent faire un minimum de 20 séances
--	Les étudiants en «&nbsp;spé&nbsp;» (deuxième année) doivent faire un minimum de 16 séances
+- Les étudiants en «&nbsp;sup&nbsp;» (première année) doivent faire un minimum de 20 séances
+- Les étudiants en «&nbsp;spé&nbsp;» (deuxième année) doivent faire un minimum de 16 séances
 
-<strong>
-
--	Qu’en est-il des «&nbsp;5/2&nbsp;»&nbsp;?
-
-</strong>
+- **Qu’en est-il des «&nbsp;5/2&nbsp;»&nbsp;?**
 
 ##Notification
 On peut également pour chacune de ces années fixer un seuil d’alerte, par exemple&nbsp;:
 
--	Pour les étudiants en «&nbsp;sup&nbsp;»&nbsp;: seul d’alerte = 5
--	Pour les étudiants en «&nbsp;spé&nbsp;»&nbsp;: seuil d’alerte = 3
+- Pour les étudiants en «&nbsp;sup&nbsp;»&nbsp;: seul d’alerte = 5
+- Pour les étudiants en «&nbsp;spé&nbsp;»&nbsp;: seuil d’alerte = 3
 
-<strong>
-
--	Qu’en est-il des «&nbsp;5/2&nbsp;»&nbsp;?
-
-</strong>
+- **Qu’en est-il des «&nbsp;5/2&nbsp;»&nbsp;?**
 
 On déclenche une première alerte si on a franchi le seuil&nbsp;:
 
@@ -297,12 +282,12 @@ On souhaite pouvoir bénéficier de plusieurs outils de bilan&nbsp;:
 - Un bilan par enseignant de la saisie des présences / dispenses (**sous quelle forme&nbsp;?**)
 
 ##Fonctionnalités
-**Utilisateur**
+###Utilisateur
 
 - Consultation, modification du profil (mot de passe, email)
 - Ré-initialisation du mot de passe
 
-**Administration**
+###Administration
 
 - Importation Base élève
 - Importation Base Personnel
@@ -319,7 +304,7 @@ On souhaite pouvoir bénéficier de plusieurs outils de bilan&nbsp;:
 	- **Affectation du lieu**
 	- **Affectation des activités**
 
-**Enseignant**
+###Enseignant
 
 - Impression des grilles d’appel des étudiants
 - Saisie des présences / dispenses
@@ -335,7 +320,7 @@ On souhaite pouvoir bénéficier de plusieurs outils de bilan&nbsp;:
 	- **Affectation du lieu**
 	- **Affectation des activités**
 
-**Etudiant**
+###Etudiant
 
 - Pour chaque cycle&nbsp;: inscription aux activités sportives
  
@@ -370,7 +355,7 @@ Couleurs du logo&nbsp;:
 - Bleu Foncé (texte) code hexa&nbsp;: 0057A6
 - Gris (ombre) code hexa&nbsp;: BFBFBF
 
-Police de Caractères par défaut&nbsp;: Verdana
+Police de Caractères par défaut&nbsp;: Verdana<br>
 Taille par défaut&nbsp;: 11pt
 
 ##Contrainte d’organisation
