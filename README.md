@@ -23,12 +23,18 @@ Les enseignants d’Education Physique et Sportive proposent des activités spor
 - «&nbsp;spé&nbsp;» pour les étudiants de deuxième année
 
 En ce qui concerne le volume des informations à gérer, on vous informe qu’au Lycée Henri Wallon de Valenciennes on comptait 14 classes préparatoires aux grandes écoles qui représentaient environ 450 étudiants, pour l’année scolaire 2012-2013.
+
+[Retour au Sommaire](#sommaire)
+
 ##Objectif
 Ce projet a pour objectif de fournir une application web permettant aux établissements scolaires de vérifier de manière plus efficace l’assiduité des étudiants à ces ateliers.
 
 **Attention**
 
 - A la suite du document certaines informations apparaissent en **gras**. Ces informations peuvent faire l’objet d’une précision ou d’une modification ultérieure !
+
+
+[Retour au Sommaire](#sommaire)
 
 ##Tableau des Activités
 Pour chaque année («&nbsp;sup&nbsp;», et «&nbsp;spé&nbsp;») les enseignants proposent un ensemble d’activités qu’ils se répartissent entre eux.
@@ -218,6 +224,9 @@ Mme LAPOINTE<br>
 - Les étudiants en «&nbsp;sup&nbsp;» ont sport le jeudi
 - Les étudiants en «&nbsp;spé&nbsp;» ont sport le mardi
 
+
+[Retour au Sommaire](#sommaire)
+
 ##Activités Extra-Scolaires
 Certains étudiants suivent une ou plusieurs activités sportives extra-scolaires&nbsp;: en UNSS, ou en Club.
 L’UNSS étant organisée par des enseignants du lycée, ces heures peuvent être prises en charge sous la forme d’un cycle à part entière.
@@ -229,12 +238,18 @@ Un cycle «&nbsp;extra-scolaire&nbsp;» peut impliquer des étudiants de «&nbsp
 	- **Utilise-t-on le même mécanisme que celui de l’UNSS&nbsp;?**
 		- **Un entraineur d’un club pourrait-il faire le pointage des présences et des dispenses sur l’application&nbsp;?**
 
+
+[Retour au Sommaire](#sommaire)
+
 ##Inscription
 Les activités proposées pendant un cycle sont définies préalablement et les étudiants doivent s’inscrire pour chaque cycle à une (**ou plusieurs&nbsp;?**) activités, et ce entre la date d’ouverture et la date de clôture des inscriptions.
 
 **A noter&nbsp;:**
 
 - Tout changement d’atelier sportif après la date de clôture des inscriptions devra passer par un enseignant qui pourra modifier l’inscription d’un étudiant. Une inscription à donc une date de début et peut avoir une date de fin. Cette date de fin doit être définie au moment de la nouvelle inscription.
+
+
+[Retour au Sommaire](#sommaire)
 
 ##Pointage des étudiants présents
 A chaque séance d’une activité sportive, l’enseignant en charge de l’activité doit pouvoir&nbsp;:
@@ -245,6 +260,9 @@ A chaque séance d’une activité sportive, l’enseignant en charge de l’act
 
 **Sur un même cycle, un étudiant peut-il suivre plusieurs ateliers en alternance encadrés par des enseignants différents&nbsp;?**
  
+
+[Retour au Sommaire](#sommaire)
+
 ##Quota
 La présence systématique à une séance de sport n’est pas requise. Les étudiants doivent cependant suivre un certain nombre de séances au minimum en fonction de leur année&nbsp;:
 
@@ -252,6 +270,9 @@ La présence systématique à une séance de sport n’est pas requise. Les étu
 - Les étudiants en «&nbsp;spé&nbsp;» (deuxième année) doivent faire un minimum de 16 séances
 
 **Qu’en est-il des «&nbsp;5/2&nbsp;»&nbsp;?**
+
+
+[Retour au Sommaire](#sommaire)
 
 ##Notification
 On peut également pour chacune de ces années fixer un seuil d’alerte, par exemple&nbsp;:
@@ -281,6 +302,9 @@ Ces alertes sont diffusées&nbsp;:
 	- **A l’étudiant&nbsp;?**
 - **Par email&nbsp;? (nécessite l’exécution d’une tâche périodique sur le serveur d’hébergement, à vérifier si notre hébergement académique permet ce genre de choses).**
 
+
+[Retour au Sommaire](#sommaire)
+
 ##Bilan
 On souhaite pouvoir bénéficier de plusieurs outils de bilan&nbsp;:
 
@@ -291,6 +315,9 @@ On souhaite pouvoir bénéficier de plusieurs outils de bilan&nbsp;:
 - Un bilan annuel par étudiant avec un total par Cycle (C1, C2, …, UNSS) et par Semestre (S1, S2)
 - Un bilan global par étudiant et par année («&nbsp;sup&nbsp;», «&nbsp;spé&nbsp;», «&nbsp;5/2&nbsp;»)
 - Un bilan par enseignant de la saisie des présences / dispenses (**sous quelle forme&nbsp;?**)
+
+
+[Retour au Sommaire](#sommaire)
 
 ##Fonctionnalités
 ###Utilisateur
@@ -335,13 +362,15 @@ On souhaite pouvoir bénéficier de plusieurs outils de bilan&nbsp;:
 
 - Pour chaque cycle&nbsp;: inscription aux activités sportives
  
+
+[Retour au Sommaire](#sommaire)
+
 ##Contraintes Techniques
 L’application sera développée en utilisant&nbsp;:
 
 - Le langage PHP
 - Une base de données MySQL
 - Le framework&nbsp;: D [R]iehl Framework 1.1 (ou ultérieur)
-- AJAX
 - Serveur d’intégration continu&nbsp;: Hudson Jenkins
 - Serveur de Version&nbsp;: Git
 - Test Unitaire&nbsp;: phpUnit
@@ -369,5 +398,9 @@ Couleurs du logo&nbsp;:
 Police de Caractères par défaut&nbsp;: Verdana<br>
 Taille par défaut&nbsp;: 11pt
 
+[Retour au Sommaire](#sommaire)
+
 ##Contrainte d’organisation
 Au moins un membre de chaque équipe doit participer aux décisions prisent sur le projet général.
+
+[Retour au Sommaire](#sommaire)
