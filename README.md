@@ -4,7 +4,7 @@
 ##Sommaire
 - [Contexte](#contexte)
 - [Objectif](#objectif)
-- [Tableau des Activités](tableau%20des%20activit%C3%A9s)
+- [Tableau des Activités](tableau-des-activit%C3%A9s)
 - [Activités Extra-Scolaires](activit%C3%A9s-extra-scolaires)
 - [Inscription](inscription)
 - [Pointage des étudiants présents](pointage-des-%C3%A9tudiants-pr%C3%A9sents)
