@@ -1,0 +1,5 @@
+id;nom;prenom;email;login;password;actif
+1;Administrateur;;;admin;admin;1
+2;Assistant;;;assist;assist;1
+3;Utilisateur;;;user;user;1
+4;Invité;;;invit;invit;0

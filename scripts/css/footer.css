@@ -1,0 +1,10 @@
+div#footer
+{
+	clear:both;
+	/*height:32px;*/
+	padding-left:10px;
+	line-height:32px;
+	border:1px solid black;
+	border-top:none;
+	background-color:lightgray;
+}

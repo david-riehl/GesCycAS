@@ -1,0 +1,41 @@
+button
+{
+	width:32px;
+	height:32px;
+	margin:0;
+	padding:0;
+	border:0;
+	background-color: transparent;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+button:hover
+{
+	background-position: center center;
+}
+
+button:active
+{
+	background-position: bottom center;
+}
+
+button.create
+{
+	background-image: url('../../icons/button_create.png');
+}
+
+button.read
+{
+	background-image: url('../../icons/button_read.png');
+}
+
+button.update
+{
+	background-image: url('../../icons/button_update.png');
+}
+
+button.delete
+{
+	background-image: url('../../icons/button_delete.png');
+}

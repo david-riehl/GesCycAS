@@ -1,0 +1,35 @@
+div#main
+{
+	float:left;
+	width:887px;
+	height:300px;
+	overflow:auto;
+	border:1px solid black;
+	border-top:none;
+	border-left:none;
+	padding:0 5px 0 5px;
+}
+
+#main_buttons
+{
+	clear:both;
+	text-align:right;
+}
+#main_items
+{
+	float:left;
+	margin-left:10px;
+/*	height:190px;*/
+	overflow:auto;
+}
+#main_links
+{
+	float:left;
+	height:190px;
+	overflow:auto;
+}
+
+.erreur
+{
+	color:red;
+}

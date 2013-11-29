@@ -1,0 +1,29 @@
+table tr th
+{
+	text-align:left;
+}
+.required
+{
+	color:red;
+}
+table.list
+{
+	border-spacing:0;
+    border-collapse:collapse;
+}
+table.list tr.pair
+{
+	background-color:lightgray;
+}
+table.list tr.impair
+{
+	background-color:white;
+}
+table.list tr.pair:hover
+{
+	background-color:gray;
+}
+table.list tr.impair:hover
+{
+	background-color:gray;
+}

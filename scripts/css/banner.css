@@ -1,0 +1,14 @@
+div#banner
+{
+	height:100px;
+	border:1px solid black;
+}
+
+div#banner h1
+{
+	display:block;
+	line-height:100px;
+	margin:0px;
+	text-align:center;
+	background-color:lightgray;
+}

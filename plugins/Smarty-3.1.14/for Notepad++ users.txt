@@ -1,0 +1,14 @@
+in order to highlight SMARTY code in Notepad++,
+you have to use a xml dedicated file, called 'userDefineLang.xml'. 
+
+
+open explorer at %APPDATA%\notepad++
+
+
+- If it exist, it is in the Notepad++ folder
+  you will have to append the xml for smarty to the file
+
+- If it doesn't exist
+  just rename the xml smarty file
+  from userDefineLang_smarty.xml to userDefineLang.xml
+  and place it in the folder
