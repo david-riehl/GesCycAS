@@ -380,6 +380,8 @@ L’application sera développée en utilisant&nbsp;:
 	- Ordinateur portable
 	- Mini-pc (résolution 1024x600)
 
+[Retour au Sommaire](#sommaire)
+
 ##Charte Graphique
 Eléments visuels que l’on souhaite retrouver&nbsp;:
 
