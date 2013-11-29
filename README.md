@@ -278,7 +278,7 @@ On souhaite pouvoir bénéficier de plusieurs outils de bilan&nbsp;:
 	- pour le Semestre 1&nbsp;: C1, C2, C3, UNSS + total / quota
 	- pour le Semestre 2&nbsp;: C3, C4, C5, UNSS + total / quota
 - Un bilan annuel par étudiant avec un total par Cycle (C1, C2, …, UNSS) et par Semestre (S1, S2)
-- Un bilan global par étudiant et par année (sup, spé, 5/2)
+- Un bilan global par étudiant et par année («&nbsp;sup&nbsp;», «&nbsp;spé&nbsp;», «&nbsp;5/2&nbsp;»)
 - Un bilan par enseignant de la saisie des présences / dispenses (**sous quelle forme&nbsp;?**)
 
 ##Fonctionnalités
