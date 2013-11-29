@@ -2,8 +2,8 @@
 *Gestion des Cycles d'Activités Sportives*
 
 ##Sommaire
-*[Contexte](#Contexte)
-*[Objectif](#Objectif)
+*[Contexte](#contexte)
+*[Objectif](#objectif)
 
 #[Contexte]
 Au cours de leur cursus, les étudiants inscrits en Classe Préparatoire aux Grandes Ecoles (CPGE) doivent avoir une pratique sportive.
