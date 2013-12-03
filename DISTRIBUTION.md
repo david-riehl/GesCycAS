@@ -22,7 +22,7 @@
 <tr><td>Lahlah</td><td>Anthony</td><td>List</td><td>Create</td><td>Read</td><td>Update</td><td>Delete</td><td>List</td><td>Create</td><td>Read</td><td>Update</td><td>Delete</td><td>Read</td></tr>
 <tr><td rowspan="2">8</td><td>Hadj-Merabet</td><td>Hyssam</td><td rowspan="2">Annee</td><td rowspan="2" colspan="2">jourSemaine</td><td colspan="5">Annee</td><td colspan="5">JourSemaine</td><td>Seance</td></tr>
 <tr><td>Romano</td><td>Logan</td><td>List</td><td>Create</td><td>Read</td><td>Update</td><td>Delete</td><td>List</td><td>Create</td><td>Read</td><td>Update</td><td>Delete</td><td>Update</td></tr>
-<tr><td rowspan="2">9</td><td>Demeyere</td><td>Corentin</td><td rowspan="2">Integration</td><td rowspan="2">Autoriser</td><td rowspan="2">Effectuer</td><td colspan="5">Integration</td><td>Autoriser</td><td>Effectuer</td></tr>
+<tr><td rowspan="2">9</td><td>Demeyere</td><td>Corentin</td><td rowspan="2">Integration</td><td rowspan="2">Autorisation</td><td rowspan="2">Effectuer</td><td colspan="5">Integration</td><td>Autorisation</td><td>Effectuer</td></tr>
 <tr><td>Merville</td><td>Jean-Philippe</td><td>List</td><td>Create</td><td>Read</td><td>Update</td><td>Delete</td><td>Update</td><td>Update</td></tr>
 <tr><td rowspan="2">10</td><td>Ter Waarbeek</td><td>Jan</td><td rowspan="2">Personnel</td><td rowspan="2">Enseignant</td><td rowspan="2">Encadrer</td><td colspan="5">Personnel</td><td colspan="5">Enseignant</td><td></td></tr>
 <tr><td>Bulté</td><td>Cédric</td><td>List</td><td>Create</td><td>Read</td><td>Update</td><td>Delete</td><td>List</td><td>Create</td><td>Read</td><td>Update</td><td>Delete</td><td>Delete</td></tr>
