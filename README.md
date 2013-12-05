@@ -406,3 +406,4 @@ Taille par défaut&nbsp;: 11pt
 Au moins un membre de chaque équipe doit participer aux décisions prisent sur le projet général.
 
 [Retour au Sommaire](#sommaire)
+
