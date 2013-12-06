@@ -5,7 +5,7 @@
 				</ul>
 			</div>
 			<div id="main">
-				<h1>Création d'une annéet</h1>
+				<h1>Création d'une année</h1>
 				<form name="frm_annee_create" action="" method="post">
 					<div  id="main_items">
 						<table>
