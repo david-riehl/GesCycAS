@@ -18,30 +18,6 @@
 							</tr>
 						</table>
 					</div>
-					<div id="main_links">
-{if in_array('Affectation::default',$droits)}
-						<table>
-							<tr>
-								<td>
-									<fieldset style="margin-top:-7px;">
-										<legend>Affectations</legend>
-										<table>
-{section name=utl_list loop=$linked_items}
-											<tr>
-												<td>
-													<!-- Affecter utilisateur pour les droit de modifier/supprimer un lieu ? -->
-													<input type="checkbox" id="affectation_utl_{$linked_items[utl_list].id}_grp_last" name="affectation_utl_{$linked_items[utl_list].id}_grp_last"{if ! in_array('Affectation::update',$droits)} disabled="disabled"{/if}>
-													<label for="affectation_utl_{$linked_items[utl_list].id}_grp_last">&nbsp;{$linked_items[utl_list].login} (<span style="font-style:italic;">{$linked_items[utl_list].prenom} {$linked_items[utl_list].nom}</span>)</label>
-												</td>
-											</tr>
-{/section}
-										</table>
-									</fieldset>
-								</td>
-							</tr>
-						</table>
-{/if}
-					</div>
 					<div id="main_buttons">
 						<input type="submit" name="btn_valider" value="Créer">
 						<input type="submit" formaction=".." formnovalidate="formnovalidate" name="btn_annuler" value="Annuler">
