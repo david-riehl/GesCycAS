@@ -6,7 +6,7 @@
 			</div>
 			<div id="main">
 				<h1>Ajout d'un lieu</h1>
-				<form name="frm_lieu_create" action="" method="post">
+				<form name="lieu_create" action="" method="post">
 					<div  id="main_items">
 						<table>
 							<tr>
