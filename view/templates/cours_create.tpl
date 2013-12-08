@@ -14,12 +14,12 @@
 								<td><input type="text" id="debut" name="debut" value="" maxlength="{$item_fields[1].size}"{if isset($item_fields[1].constraint) && $item_fields[1].constraint=="NOT NULL"} required="required"{/if}></td>
 							</tr>
 							<tr>
-								<th><label for="fin">fin{if isset($item_fields[1].constraint) && $item_fields[1].constraint=="NOT NULL"}<span class="required">*</span>{/if} : </label></th>
-								<td><input type="text" id="fin" name="fin" value="" maxlength="{$item_fields[1].size}"{if isset($item_fields[1].constraint) && $item_fields[1].constraint=="NOT NULL"} required="required"{/if}></td>
+								<th><label for="fin">fin{if isset($item_fields[2].constraint) && $item_fields[2].constraint=="NOT NULL"}<span class="required">*</span>{/if} : </label></th>
+								<td><input type="text" id="fin" name="fin" value="" maxlength="{$item_fields[2].size}"{if isset($item_fields[2].constraint) && $item_fields[2].constraint=="NOT NULL"} required="required"{/if}></td>
 							</tr>
 							<tr>
-								<th><label for="nbPlacesMax">Nombre de places maximum{if isset($item_fields[1].constraint) && $item_fields[1].constraint=="NOT NULL"}<span class="required">*</span>{/if} : </label></th>
-								<td><input type="text" id="nbPlacesMax" name="nbPlacesMax" value="" maxlength="{$item_fields[1].size}"{if isset($item_fields[1].constraint) && $item_fields[1].constraint=="NOT NULL"} required="required"{/if}></td>
+								<th><label for="nbPlacesMax">Nombre de places maximum{if isset($item_fields[3].constraint) && $item_fields[3].constraint=="NOT NULL"}<span class="required">*</span>{/if} : </label></th>
+								<td><input type="text" id="nbPlacesMax" name="nbPlacesMax" value="" maxlength="{$item_fields[3].size}"{if isset($item_fields[3].constraint) && $item_fields[3].constraint=="NOT NULL"} required="required"{/if}></td>
 							</tr>
 							<tr>
 								<td colspan="2"><span class="required">* Champ obligatoire</span></td>
