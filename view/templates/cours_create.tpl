@@ -32,8 +32,8 @@
 					</div>
 				</form>
 				<script type="text/javascript">
-					document.forms["cours_create"].elements["nom"].focus();
-					document.forms["cours_create"].elements["nom"].select();
+					document.forms["cours_create"].elements["debut"].focus();
+					document.forms["cours_create"].elements["debut"].select();
 				</script>
 			</div>
 {include file="document_footer.tpl"}
