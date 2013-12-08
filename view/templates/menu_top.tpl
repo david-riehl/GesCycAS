@@ -28,5 +28,8 @@
 {if in_array('Tentative::default',$droits)}
 					<li><a href="{$URI_root}/Tentative/" title="Tentatives">Tentatives</a></li>
 {/if}
+{if in_array('Activite::default',$droits)}
+					<li><a href="{$URI_root}/Activite/" title="Activite">Activite</a></li>
+{/if}
 				</ul>
 			</div>
