@@ -1,0 +1,33 @@
+<?php
+	class cycle_extrascolaire_class
+	{
+		private $id_cycle = 0;
+		private $id_lieu = 0;
+		
+		public function construct()
+		{
+			$this->id_cycle = func_get_arg(0);
+			$this->id_lieu = func_get_arg(1);
+		}
+		
+		function get_id_cycle()
+		{
+			return $this -> id_cycle;
+		}
+		
+		function set_id_cycle($id_cycle)
+		{
+			$this -> id_cycle = $id_cycle;
+		}
+		
+		function get_id_lieu()
+		{
+			return $this -> id_lieu;
+		}
+		
+		function set_id_lieu($id_lieu)
+		{
+			$this -> id_lieu = $id_lieu;
+		}
+
+?>
