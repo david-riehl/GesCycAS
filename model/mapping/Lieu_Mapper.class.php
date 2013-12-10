@@ -2,10 +2,12 @@
 	class Lieu_Mapper extends Data_Mapper
 	{
 		private static $name = "Lieu";
+
 		
 		public static $fields = array(
 			array('name' => 'id','type' => 'int','constraint' => 'NOT NULL','options' => 'AUTO_INCREMENT'),
-			array('name' => 'nom', 'type' => 'varchar', 'size' => 20,'constraint' => 'NOT NULL')
+			array('name' => 'nom', 'type' => 'varchar', 'size' => 50,'constraint' => 'NOT NULL'),
+		
 		);
 		
 		public static $primary_key = array('id');
