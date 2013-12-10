@@ -1,23 +1,28 @@
 <?php
-	class Lieu extends Data
+	class Utilisateur extends Data
 	{
 		/**
 		 * Liste des propriétés
 		 */
 		
 		private $id;
-		private $nom
-		private $lesCours;
+		private $debut;
+		private $fin;
+		private $nbPlacesMax;
+		private $leLieu;
 		
 		public function __construct()
 		{
 			$mapper_classname = get_class()."_Mapper";
 			switch(func_num_args())
 			{
-				case 3:
+				case 4:
 					/*construction d'un objet avec tous les paramètres*/
 					$this->id = func_get_arg(0);
-					$this->nom = func_get_arg(1);
+					$this->debut = func_get_arg(1);
+					$this->fin = func_get_arg(2);
+					$this->nbPlacesMax = func_get_arg(3);
+					$this->lieu = func_get_arg(4);
 					break;
 				case 1:
 					/*construction d'un objet à partir de l'id*/
@@ -25,7 +30,10 @@
 					$res = $mapper_classname::select(array(),array(array('field' => 'id', 'operator' => '=', 'values' => array($this->id))));
 					if(count($res))
 					{
-						$this->nom = $res[0]['nom'];
+						$this->debut = $res[0]['debut'];
+						$this->fin = $res[0]['fin'];
+						$this->nbPlacesMax = $res[0]['nbPlacesMax'];
+						$this->lieu = $res[0]['lieu'];
 						
 					}
 					break;
@@ -42,47 +50,65 @@
 			$this->id = $id;
 		}
 		
-		function get_nom()
+		function get_debut()
 		{
-			return $this->nom;
+			return $this->debut;
 		}
 		
-		function set_nom($nom)
+		function set_debut($debut)
 		{
-			$this->nom = $nom;
+			$this->debut = $debut;
 		}
 		
-		function get_lesCours()
+		
+		function get_fin()
 		{
-			return $this->lesCours;
+			return $this->fin;
 		}
 		
-		function set_lesCours($lesCours)
+		function set_fin($fin)
 		{
-			$this->lesCours = $lesCours;
+			$this->fin = $fin;
 		}
-	
+		
+		
+		
+		function get_nbPlacesMax()
+		{
+			return $this->nbPlacesMax;
+		}
+		
+		function set_nbPlacesMax($nbPlacesMax)
+		{
+			$this->nbPlacesMax = $nbPlacesMax;
+		}
+		
+		function get_lieu()
+		{
+			return $this->lieu;
+		}
+		
+		function set_lieu($lieu)
+		{
+			$this->lieu = $lieu;
+		}
 		static function get_list()
 		{
 			$mapper_classname = get_class()."_Mapper";
 			$rows = $mapper_classname::select();
 			return $rows;
 		}
-		
-		
-		
-		
 		/*
 		static function get_droits($id)
 		{
 			$query="
 				SELECT DISTINCT droit.*
-				FROM Lieu
-					INNER JOIN affectation ON Lieu.id = affectation.id_Lieu
+				FROM utilisateur
+					INNER JOIN affectation ON utilisateur.id = affectation.id_utilisateur
 					INNER JOIN groupe      ON groupe.id      = affectation.id_groupe
 					INNER JOIN attribution ON groupe.id      = attribution.id_groupe
 					INNER JOIN droit       ON droit.id       = attribution.id_droit
-				WHERE Lieu.id = :id;
+				WHERE utilisateur.id = :id;
 			";
 			Database::connect();
 			Database::select_database();
@@ -123,22 +149,22 @@
 		/*public function remove_session($item)
 		{
 			parent::remove_item($item,'session_items');
-		}
-		*/
+		}*/
+		
 		/**
 		 * Get item from list
 		 * @param int id
 		 */
-	/*	public function get_session($id)
+		/*public function get_session($id)
 		{
 			return parent::get_item($id,'session_items');
-		}
-		*/
+		}*/
+		
 		/**
 		 * Get all items from list
 		 * @param int id
 		 */
-	/*	public function get_all_session()
+		/*public function get_all_session()
 		{
 			return parent::get_all_items('session_items');
 		}*/
@@ -147,16 +173,16 @@
 		 * List contains item
 		 * @param int id
 		 */
-	/*	public function isset_session($item)
+		/*public function isset_session($item)
 		{
 			return parent::isset_item($item,'session_items');
-		}
-		*/
+		}*/
+		
 		/**
 		 * List is empty
 		 * @param int id
 		 */
-	/*	public function empty_session()
+		/*public function empty_session()
 		{
 			return parent::empty_list('session_items');
 		}*/
@@ -178,11 +204,11 @@
 		 * Add item in list
 		 * @param object
 		 */
-	/*	public function add_tentative($item)
+		/*public function add_tentative($item)
 		{
 			parent::add_item($item,'tentative_items');
-		}
-		*/
+		}*/
+		
 		/**
 		 * Add all items in list
 		 * @param object
@@ -196,7 +222,7 @@
 		 * Remove item from list
 		 * @param int id
 		 */
-	/*	public function remove_tentative($item)
+		/*public function remove_tentative($item)
 		{
 			parent::remove_item($item,'session_items');
 		}*/
@@ -214,11 +240,11 @@
 		 * Get all items from list
 		 * @param int id
 		 */
-	/*	public function get_all_tentative()
+	/*public function get_all_tentative()
 		{
 			return parent::get_all_items('tentative_items');
-		}
-		*/
+		}*/
+		
 		/**
 		 * List contains item
 		 * @param int id
@@ -226,8 +252,8 @@
 	/*	public function isset_tentative($item)
 		{
 			return parent::isset_item($item,'tentative_items');
-		}*/
-		
+		}
+		*/
 		/**
 		 * List is empty
 		 * @param int id
