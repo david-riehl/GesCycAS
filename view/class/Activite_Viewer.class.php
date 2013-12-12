@@ -19,7 +19,7 @@
 			$smarty->assign("linked_items",$linked_items);
 			$smarty->assign("item_fields",$item_fields);
 			$smarty->assign("linked_fields",$linked_fields);
-			$smarty->display('droit_create.tpl');
+			$smarty->display('activite_create.tpl');
 		}
 
 		public static function form_read($item, $linked_items, $links, $item_fields, $linked_fields)
@@ -31,7 +31,7 @@
 			$smarty->assign("links",$links);
 			$smarty->assign("item_fields",$item_fields);
 			$smarty->assign("linked_fields",$linked_fields);
-			$smarty->display('droit_read.tpl');
+			$smarty->display('activite_read.tpl');
 		}
 
 		public static function form_update($item, $linked_items, $links, $item_fields, $linked_fields)
@@ -43,7 +43,7 @@
 			$smarty->assign("links",$links);
 			$smarty->assign("item_fields",$item_fields);
 			$smarty->assign("linked_fields",$linked_fields);
-			$smarty->display('droit_update.tpl');
+			$smarty->display('activite_update.tpl');
 		}
 		
 		public static function form_delete($item)
@@ -51,7 +51,7 @@
 			$smarty = parent::init_viewer();
 			
 			$smarty->assign("item",$item);
-			$smarty->display('droit_delete.tpl');
+			$smarty->display('activite_delete.tpl');
 		}
 	}
 ?>

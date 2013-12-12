@@ -49,7 +49,7 @@
 				case 'delete':
 					if(in_array('Droit::delete',$_SESSION['droits']))
 					{
-						self::form_delere();
+						self::form_delete();
 					}
 					else
 					{

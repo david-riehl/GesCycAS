@@ -26,7 +26,13 @@
 {section name=list loop=$item}
 					<tr class="{if $smarty.section.list.index %2 == 0}pair{else}impair{/if}">
 						<td style="width: {$fields[1].size*10}px;">{$item[list].nom}</td>
-
+{if in_array('Activite::read',$droits)}
+						<td>
+							<form action="./read/{$item[list].id}" method="post">
+								<button type="submit" name="btn_read" class="read" title="Consulter"></button>
+							</form>
+						</td>
+{/if}
 {if in_array('Activite::update',$droits)}
 						<td>
 							<form action="./update/{$item[list].id}" method="post">
