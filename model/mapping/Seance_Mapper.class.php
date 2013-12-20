@@ -10,7 +10,9 @@
 		);
 		
 		public static $primary_key = array('id');
-		public static $foreign_key = array();
+		public static $foreign_key = array(
+			array('Foreign Key' => array('idCour'), 'table' => 'Cours', 'Primary Key' => array('id')),
+		);
 		public static $values = array(
 			'init' => array(
 			),
