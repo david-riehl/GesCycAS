@@ -8,6 +8,7 @@
 		private $id;
 		private $nom
 		private $lesCours;
+		private $lesActivites;
 		
 		public function __construct()
 		{
