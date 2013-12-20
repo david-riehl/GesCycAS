@@ -8,12 +8,18 @@
 			array('name' => 'debut', 'type' => 'time','constraint' => 'NOT NULL'),
 			array('name' => 'fin', 'type' => 'time','constraint' => 'NOT NULL'),
 			array('name' => 'nbPlacesMax','type' => 'int','constraint' => 'NOT NULL'),
-			array('name' => 'leLieu', 'type' => 'int','constraint' => 'NOT NULL'),
+			array('name' => 'idLieu', 'type' => 'int','constraint' => 'NOT NULL'),
+			array('name' => 'idJour', 'type' => 'int','constraint' => 'NOT NULL')
+			array('name' => 'idCycle', 'type' => 'int','constraint' => 'NOT NULL')
 			
 		);
 		
 		public static $primary_key = array('id');
-		public static $foreign_key = array('leLieu');
+		public static $foreign_key = array(
+			array('Foreign Key' => array('idLieu'), 'table' => 'Lieu', 'Primary Key' => array('id')),
+			array('Foreign Key' => array('idJour'), 'table' => 'JourSemaine', 'Primary Key' => array('id')),
+			array('Foreign Key' => array('idCycle'), 'table' => 'Cycle', 'Primary Key' => array('id')),
+		);
 		public static $values = array(
 			'init' => array(
 			),
