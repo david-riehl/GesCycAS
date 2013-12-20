@@ -4,7 +4,7 @@
 		/**
 		 * Liste des propriétés
 		 */
-		
+		  
 		private $id;
 		private $date;
 		private $leCours;
